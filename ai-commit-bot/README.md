@@ -1,14 +1,12 @@
-**AI-powered Git automation tool**
-
+# ✅ `README.md` for GitHub Repo: `ai-commit-bot`
+---
+## AI-powered Git automation tool
+---
 * Explains what this tool is
 * Shows how to use it
 * Lists errors users may encounter (and how we solved them)
 * Positions you as a serious cloud innovator
-
 ---
-
-## ✅ `README.md` for Your GitHub Repo: `ai-commit-bot`
-
 ````markdown
 # 🤖 AI Commit Bot — Automate Git Commits Using AI (with Fallbacks)
 
