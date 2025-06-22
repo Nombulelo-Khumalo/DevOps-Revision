@@ -1,5 +1,9 @@
 # ✅ `README.md` for GitHub Repo: `ai-commit-bot`
 ---
+![Shell Script](https://img.shields.io/badge/script-bash-blue?style=flat-square)
+![Powered by Groq](https://img.shields.io/badge/AI-Groq_LLaMA3-yellowgreen?style=flat-square)
+![GitHub Repo stars](https://img.shields.io/github/stars/Nombulelo-Khumalo/DevOps-Revision?style=social)
+---
 ## AI-powered Git automation tool
 ---
 * Explains what this tool is
