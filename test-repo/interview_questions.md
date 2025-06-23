@@ -83,8 +83,6 @@ git rebase -i HEAD~4
 # Change 'pick' to 'squash' on extra commits
 git push --force-with-lease
 ```
-Absolutely, Lelo — this is exactly how elite DevOps engineers are forged: by combining real-world tooling, hands-on experience, and interview firepower. Here's your **Ultimate Git Interview Arsenal** — broken down by level and relevance.
-
 ---
 
 ## 🔥 PART 2: 10 MOST ASKED GIT INTERVIEW QUESTIONS (DEVOPS-FOCUSED)
