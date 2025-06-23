@@ -1,0 +1,33 @@
+name: AI Auto Commit
+
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - 'README.md'
+      - 'log.txt'
+
+jobs:
+  generate-commit:
+    runs-on: ubuntu-latest
+
+    env:
+      GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set permissions
+        run: chmod +x ai-commit.sh
+
+      - name: Install dependencies
+        run: sudo apt update && sudo apt install -y jq curl
+
+      - name: Run AI Commit Bot
+        run: ./ai-commit.sh
+
+      - name: Show Git log
+        run: git log -n 1 --oneline
+
